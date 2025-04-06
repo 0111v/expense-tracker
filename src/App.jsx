@@ -40,7 +40,7 @@ const App = () => {
   return (
     <div className='container'>
       <h1>Expense Tracker</h1>
-      <div className='balance'>Balance: {total}</div>
+      <div className='balance'>Balance: <span className={total < 0 ? 'minus' : 'plus'}>{total < 0 ? '-' : '+'}${Math.abs(total).toFixed(2)}</span></div>
       <div className="summary">
         <div className='income'>+${income.toFixed(2)}</div>
         <div className='expense'>-${Math.abs(expense).toFixed(2)}</div>

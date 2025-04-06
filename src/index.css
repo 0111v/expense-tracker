@@ -27,6 +27,14 @@ h1 {
   font-weight: bold;
 }
 
+.container .minus {
+  color: #e74c3c;
+}
+
+.container .plus {
+  color: #2ecc71;
+}
+
 .summary {
   display: flex;
   justify-content: space-between;

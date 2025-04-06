@@ -1,12 +1,85 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 💸 Expense Tracker
 
-Currently, two official plugins are available:
+A clean, responsive, and interactive **Expense Tracker** application built with **React** and **Vite**, designed to showcase practical front-end development skills. This project demonstrates state management, local storage persistence, responsive design, and GitHub Pages deployment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> ⚡️ This project was created as part of my front-end portfolio, with the goal of landing a junior developer position.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🖼️ Live Demo
+
+ 👉 [View the deployed app](https://0111v.github.io/expense-tracker/)
+
+---
+
+## ✨ Features
+
+- ✅ Add and delete income or expense transactions
+- ✅ See your balance, income, and expense totals update in real-time
+- ✅ Data is saved in **localStorage** (persistent across page reloads)
+- ✅ Responsive design – works well on **desktop and mobile**
+- ✅ Deployed with **GitHub Pages** using Vite
+
+---
+
+## 🧰 Tech Stack
+
+- **React**
+- **Vite**
+- **JavaScript (ES6+)**
+- **CSS3**
+- **Local Storage**
+- **Git & GitHub**
+
+---
+
+## 📁 Folder Structure
+
+```
+├── public/               # Static files
+├── src/
+│   ├── components/       # Reusable UI components
+│   ├── App.jsx           # Main app logic
+│   └── main.jsx          # React entry point
+├── vite.config.js        # Vite config with base path
+├── package.json          # Scripts and dependencies
+└── README.md             # This file!
+```
+
+---
+
+## 🚀 Getting Started
+
+
+
+### Clone the repo:
+```bash
+git clone https://github.com/0111v/expense-tracker.git
+cd expense-tracker
+```
+
+### Install dependencies:
+```bash
+npm install
+```
+
+
+### Run the dev server:
+```bash
+npm run dev
+```
+
+---
+
+## 👨‍💻 About Me
+
+I’m a computer science degree student. This project is part of my personal portfolio to demonstrate real-world skills.
+
+- 💼 I'm currently looking for opportunities!
+- 📬 [Let's connect on LinkedIn](https://www.linkedin.com/in/victor-oliveira-855844249/)
+- 📧 Email: victor_oln@icloud.com
+
+---
+
+Thanks for checking it out! 
